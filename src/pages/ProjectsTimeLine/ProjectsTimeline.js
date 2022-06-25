@@ -3,8 +3,7 @@ import { Timeline, Events, UrlButton, ImageEvent } from "@merc/react-timeline";
 import "./ProjectsTimeLine.css";
 import LightSpeed from "react-reveal/LightSpeed";
 
-
-import lanze from "../../assets/img/projects/lanze.netlify.app_.png";
+import paint from "../../assets/img/projects/PaintShake.png"
 import metro from "../../assets/img/projects/metro-tickests-booking.netlify.app_.png";
 import volunteer from "../../assets/img/projects/volunteer-n.netlify.app_.png";
 
@@ -32,14 +31,14 @@ const ProjectsTimeline = () => {
       <Timeline>
         <LightSpeed>
           <Events>
-            {/* Project: lanze */}
+            {/* Project: Paint Shack */}
             <LightSpeed right>
               <ImageEvent
                 date="28/06/2021"
                 className="text-center"
-                text="lanze"
-                src={lanze}
-                alt="lanze"
+                text="PAINT SHACK"
+                src={paint}
+                alt="PAINT SHACK"
               >
                 <div className="d-flex justify-content-between flex-column mt-1">
                   <div>
@@ -141,19 +140,19 @@ const ProjectsTimeline = () => {
                   </div>
                   <div className="d-flex justify-content-between flex-nowrap text-center">
                     <UrlButton
-                      href="https://lanze.netlify.app/"
+                      href="https://phaintshack.netlify.app/"
                       target="_blank"
                     >
                       SEE LIVE
                     </UrlButton>
                     <UrlButton
-                      href="https://github.com/moin1223/lenze-client"
+                      href="https://github.com/moin1223/paint-shack-client"
                       target="_blank"
                     >
                       CLIENT CODE
                     </UrlButton>
                     <UrlButton
-                      href="https://github.com/moin1223/lenze-server"
+                      href="https://github.com/moin1223/paint-shack-server"
                       target="_blank"
                     >
                       SERVER CODE
